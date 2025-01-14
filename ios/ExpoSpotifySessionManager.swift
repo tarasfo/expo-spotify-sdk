@@ -32,8 +32,6 @@ final class ExpoSpotifySessionManager: NSObject {
             return nil
         }
 
-         NSLog("redirectURL", redirectURL)
-
         return SPTConfiguration(clientID: clientID, redirectURL: redirectURL)
     }()
 
